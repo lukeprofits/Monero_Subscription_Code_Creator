@@ -1,40 +1,25 @@
-# Monero_Subscription_Code_Creator
-A tool for creating custom monero-subscriptions codes (and their matching payment_ids)
+# Monero Subscription Code Creator
+A tool for creating custom `monero-subscriptions` codes (and their matching payment_ids)
 
 
-
-#BEFORE YOU START: Make sure you have Python 3.8 or newer installed: https://www.python.org/downloads/
-
-
-*Step #1 - Double click "Windows Launcher.bat" (or "Mac&Linux Launcher.sh" if you are using Mac/Linux)
-
-	  You will be asked a series of questions. These questions are used to help you create the subscription. 
-	  After answering these questions, a text file called "Add_Your_Subscription_Info_Here.txt" will be created.
+# BEFORE YOU START 
+Make sure you have (Python 3.8)[https://www.python.org/downloads/] or newer installed
 
 
-*Step #2 - A monero-subscription code and payment_id will be generated and saved in the file "ID_And_Code.txt".
+# How To Use:
+*Step #1 - Double click "Windows Launcher.bat" (or "Mac&Linux Launcher.sh" if you are using Mac/Linux). You will be asked a series of questions. These questions are used to help you create the subscription. After answering these questions, a text file called "Add_Your_Subscription_Info_Here.txt" will be created.
 
-          Send the monero-subscription code to your customer, and store the payment_id in your database/spreadsheet of customer data.
-	  (so that when you receive a payment in the future with this payment_id, you will know that it is for the customer that you gave the monero-subscription code). 
+*Step #2 - A monero-subscription code and payment_id will be generated and saved in the file "ID_And_Code.txt". Send the monero-subscription code to your customer, and store the payment_id in your database/spreadsheet of customer data (so that when you receive a payment in the future with this payment_id, you will know that it is for the customer that you gave the monero-subscription code). 
 	
-
-*Step #3 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run "Windows Launcher.bat" again. 
-	  New ones will be generated and saved in the file "ID_And_Code.txt". You do not need to re-enter the subscription information.
-	  All of this is all saved in the "Add_Your_Subscription_Info_Here.txt" file.
+*Step #3 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run "Windows Launcher.bat" again. New ones will be generated and saved in the file "ID_And_Code.txt". You do not need to re-enter the subscription information. All of this is all saved in the "Add_Your_Subscription_Info_Here.txt" file.
 
 
+#Making A Different Subscription 
+If you want to make an unrelated subscription, or want to make changes to the info that you used before, you can simply edit the `Add_Your_Subscription_Info_Here.txt` file.
+Alternatively, you can delete the `Add_Your_Subscription_Info_Here.txt` file, and then run `Windows Launcher.bat` again (if you prefer to use the prompts rather than edit a text file).
 
 
-#MAKING A DIFFERENT SUBSCRIPTION: 
-
-If you want to make an unrelated subscription, or want to make changes to the info that you used before, you can simply edit the "Add_Your_Subscription_Info_Here.txt" file.
-Alternatively, you can delete the "Add_Your_Subscription_Info_Here.txt" file, and then run "Windows Launcher.bat" again (if you prefer to use the prompts rather than edit a text file).
-
-
-
-
-#MODIFYING THE FILE: 
-
+#Modifying The File 
 Here is what should go on each line of the "Add_Your_Subscription_Info_Here.txt" file (make sure to get the order correct and have NOTHING else in the file!):
 
 *Line 1: Subscription Name - This can be any custom text 50 characters less. 
@@ -47,8 +32,5 @@ Here is what should go on each line of the "Add_Your_Subscription_Info_Here.txt"
 You do not need to add a payment_id, because a random one will be used/generated for each customer. 
 
 
-
-
-#TROUBLESHOOTING: 
-
-If you ever notice the program is acting wierd or opening and then immediatly closing, try deleting the "Add_Your_Subscription_Info_Here.txt" file and then try again.
+#Troubleshooting: 
+If you ever notice the program is acting wierd, or opening and then immediatly closing, try deleting the "Add_Your_Subscription_Info_Here.txt" file and then try again.
