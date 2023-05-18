@@ -3,7 +3,7 @@ A tool for creating custom `monero-subscriptions` codes (and their matching paym
 
 
 # BEFORE YOU START 
-Make sure you have (Python 3.8)[https://www.python.org/downloads/] or newer installed
+Make sure you have [Python 3.8](https://www.python.org/downloads/) or newer installed
 
 
 # How To Use:
