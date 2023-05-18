@@ -14,12 +14,12 @@ Make sure you have (Python 3.8)[https://www.python.org/downloads/] or newer inst
 *Step #3 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run "Windows Launcher.bat" again. New ones will be generated and saved in the file "ID_And_Code.txt". You do not need to re-enter the subscription information. All of this is all saved in the "Add_Your_Subscription_Info_Here.txt" file.
 
 
-#Making A Different Subscription 
+# Making A Different Subscription 
 If you want to make an unrelated subscription, or want to make changes to the info that you used before, you can simply edit the `Add_Your_Subscription_Info_Here.txt` file.
 Alternatively, you can delete the `Add_Your_Subscription_Info_Here.txt` file, and then run `Windows Launcher.bat` again (if you prefer to use the prompts rather than edit a text file).
 
 
-#Modifying The File 
+# Modifying The File 
 Here is what should go on each line of the "Add_Your_Subscription_Info_Here.txt" file (make sure to get the order correct and have NOTHING else in the file!):
 
 *Line 1: Subscription Name - This can be any custom text 50 characters less. 
@@ -32,5 +32,5 @@ Here is what should go on each line of the "Add_Your_Subscription_Info_Here.txt"
 You do not need to add a payment_id, because a random one will be used/generated for each customer. 
 
 
-#Troubleshooting: 
+# Troubleshooting: 
 If you ever notice the program is acting wierd, or opening and then immediatly closing, try deleting the "Add_Your_Subscription_Info_Here.txt" file and then try again.
