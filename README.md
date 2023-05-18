@@ -18,7 +18,7 @@ Make sure you have [Python 3.8](https://www.python.org/downloads/) or newer inst
 
 * Step #3 - A monero-subscription code and payment_id will be generated and saved in the file `ID_And_Code.txt`. Send the monero-subscription code to your customer, and store the payment_id in your database/spreadsheet of customer data (so that when you receive a payment in the future with this payment_id, you will know that it is for the customer that you gave the monero-subscription code). 
 	
-* Step #4 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run `Windows Launcher.bat` again. New ones will be generated and saved in the file `ID_And_Code.txt`. You do not need to re-enter the subscription information. All of this is all saved in the `Add_Your_Subscription_Info_Here.txt` file.
+* Step #4 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run `Windows Launcher.bat` again. A new monero-subscripption code and payment_id will be generated and saved in the file `ID_And_Code.txt`. You will not need to re-enter the subscription information, because all of the info from before is still saved in the `Add_Your_Subscription_Info_Here.txt` file.
 
 
 # Making A Different Subscription 
