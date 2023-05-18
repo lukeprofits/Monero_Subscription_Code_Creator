@@ -12,7 +12,7 @@ Make sure you have [Python 3.8](https://www.python.org/downloads/) or newer inst
 
 
 # How To Use:
-* Step #1 - [Click Here To Download The Files](https://github.com/lukeprofits/Monero_Subscription_Code_Creator/archive/refs/heads/main.zip) extract all the files from the .zip you downloaded and put them in a folder.
+* Step #1 - [Click Here To Download The Files](https://github.com/lukeprofits/Monero_Subscription_Code_Creator/archive/refs/heads/main.zip), then extract all the files from the .zip you downloaded and put them in a folder.
 
 * Step #2 - Double click `Windows Launcher.bat` (or `Mac&Linux Launcher.sh` if you are using Mac/Linux). You will be asked a series of questions. These questions are used to help you create the subscription. After answering these questions, a text file called `Add_Your_Subscription_Info_Here.txt` will be created.
 
