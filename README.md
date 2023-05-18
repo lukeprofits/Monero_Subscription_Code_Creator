@@ -1,4 +1,9 @@
 # Monero Subscription Code Creator
+![Supported OS](https://img.shields.io/badge/Supported%20OS-Windows%20/%20Mac%20/%20Linux-blueviolet.svg)
+![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue.svg)
+![Python 3.8+](https://img.shields.io/badge/Python-3.8+-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A tool for creating custom `monero-subscriptions` codes (and their matching payment_ids)
 
 
@@ -7,11 +12,13 @@ Make sure you have [Python 3.8](https://www.python.org/downloads/) or newer inst
 
 
 # How To Use:
-* Step #1 - Double click `Windows Launcher.bat` (or `Mac&Linux Launcher.sh` if you are using Mac/Linux). You will be asked a series of questions. These questions are used to help you create the subscription. After answering these questions, a text file called `Add_Your_Subscription_Info_Here.txt` will be created.
+* Step #1 - [Download the files](https://github.com/lukeprofits/Monero_Subscription_Code_Creator/archive/refs/heads/main.zip) extract all the files from the .zip you downloaded and put them in a folder.
 
-* Step #2 - A monero-subscription code and payment_id will be generated and saved in the file `ID_And_Code.txt`. Send the monero-subscription code to your customer, and store the payment_id in your database/spreadsheet of customer data (so that when you receive a payment in the future with this payment_id, you will know that it is for the customer that you gave the monero-subscription code). 
+* Step #2 - Double click `Windows Launcher.bat` (or `Mac&Linux Launcher.sh` if you are using Mac/Linux). You will be asked a series of questions. These questions are used to help you create the subscription. After answering these questions, a text file called `Add_Your_Subscription_Info_Here.txt` will be created.
+
+* Step #3 - A monero-subscription code and payment_id will be generated and saved in the file `ID_And_Code.txt`. Send the monero-subscription code to your customer, and store the payment_id in your database/spreadsheet of customer data (so that when you receive a payment in the future with this payment_id, you will know that it is for the customer that you gave the monero-subscription code). 
 	
-* Step #3 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run `Windows Launcher.bat` again. New ones will be generated and saved in the file `ID_And_Code.txt`. You do not need to re-enter the subscription information. All of this is all saved in the `Add_Your_Subscription_Info_Here.txt` file.
+* Step #4 - For a new customer, if you would like to generate a new payment_id and monero-subscription code for the same subscription, simply run `Windows Launcher.bat` again. New ones will be generated and saved in the file `ID_And_Code.txt`. You do not need to re-enter the subscription information. All of this is all saved in the `Add_Your_Subscription_Info_Here.txt` file.
 
 
 # Making A Different Subscription 
